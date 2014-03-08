@@ -1,0 +1,71 @@
+body {
+	background-color: #F9F9F9;
+}
+
+label {
+	color: #333;
+	width: 100%;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.required{
+	color: red;
+}
+
+#tfi-image{
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.section-1, .section-2, .section-3 {
+	border-radius: 5px;
+	padding: 30px;
+	background: #FEFEFE;
+}
+
+input[type="text"], input[type="email"], input[type="file"] {
+	width:50%;
+
+}
+input[type="file"] {
+	color: red;
+
+}
+
+
+
+form{
+	background: #fff;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	
+}
+#app-title{
+	text-align:center;
+	color:#222;
+}
+
+.steps{
+	font-weight: bold;
+	color: #333;
+	font-size: 18px;
+	background: #428BCA;
+	color: #fff;
+	height: 35px;
+	padding: 5px;
+	text-align: center;
+	border-bottom: 3px solid #DDDDDD;
+}
+
+button{
+	margin: 0 auto;
+}
+
+.input, .alert-danger, input[type="checkbox"] {
+	margin-left: 5px;
+
+}
+.input {
+	color: #777;
+}
